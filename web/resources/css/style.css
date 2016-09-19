@@ -1,0 +1,24 @@
+.linha{
+    background-color: #416CC1
+  
+	
+}
+
+.linha > center > h3 {
+    color: white;
+    margin: 
+	
+}
+
+body{
+    background-color: #999
+}
+
+.menu{
+    margin-top: 130px;
+}
+
+.fixar{
+      position:fixed;
+    margin-top: 0px !important;
+}
