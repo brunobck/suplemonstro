@@ -42,7 +42,8 @@
 	  p:viewName="index" />
     
     <mvc:annotation-driven />
-    <context:component-scan base-package="br.com.painel" />
+    <context:component-scan base-package="br.com.suplementos" />
+    
     <mvc:resources mapping="/resources/**" location="/resources/"/>
     
    

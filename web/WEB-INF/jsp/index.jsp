@@ -71,10 +71,16 @@
 	    }
 
 	    .promo1{
-		
+
 		background-color: white;
 		margin-top: 10px;
 		margin-right: 50px;
+
+	    }
+
+	    .desc{
+		background-color: #d5d5d5;
+		padding: 10px;
 		    
 	    }
 	</style>
@@ -144,36 +150,38 @@
 
 	<div class="row col-md-12 ">
 
-	    <div class="col-md-3 col-md-offset-1 promo1">
+	    <div class="col-md-3 col-md-offset-1 promo1 img-rounded">
+		<a href="whey">
 		<img src="<c:url value="resources/uploads/icones/whey.png" />" class="img-responsive" style=" width: 1126px;">	
-		<div>
-		    Whey Protein Gold Standard 100% (907g) - Optimum Nutrition
-		    R$209,79
-		    Por: R$188,79
-		    6x de R$31,47 sem juros
+		<div class="desc img-rounded">
+		    <p>Whey Protein Gold Standard 100% (907g) - Optimum Nutrition
+			R$209,79</p>
+		    <p>Por: R$188,79</p>
+		    <p>6x de R$31,47 sem juros</p>
 		    R$169,61 no boleto
 		</div>
+		</a>
 	    </div>
 
-	    <div class="col-md-3 promo1">
+	    <div class="col-md-3 promo1 img-rounded">
 		<img src="<c:url value="resources/uploads/icones/malto.png" />" class="img-responsive" style=" width: 1126px;">	
-		
-		<div>
-		    MaltoDextrina (1kg) - Max titanium
-		    R$19,90
-		    Por: R$10,90
+
+		<div class="desc img-rounded">
+		    <p>MaltoDextrina (1kg) - Max titanium
+		    R$19,90</p>
+		    <p>Por: R$10,90</p>
 		    R$9,81 no boleto
 		</div>
 	    </div>
 
-	    <div class="col-md-3 promo1">
+	    <div class="col-md-3 promo1 img-rounded">
 		<img src="<c:url value="resources/uploads/icones/bcaa.png" />" class="img-responsive" style=" width: 1126px;">			
 
-		<div>
-		    BCAA 5000 Powder (345g) - Optimum Nutrition
-		    R$199,90
-		    Por: R$185,90
-		    6x de R$30,98 sem juros
+		<div class="desc img-rounded">
+		    <p>BCAA 5000 Powder (345g) - Optimum Nutrition
+			R$199,90</p>
+		    <p>Por: R$185,90</p>
+		    <p>6x de R$30,98 sem juros</p>
 		    R$167,31 no boleto
 		</div>
 	    </div>
