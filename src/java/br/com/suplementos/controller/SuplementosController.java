@@ -5,8 +5,11 @@
  */
 package br.com.suplementos.controller;
 
+import javax.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  *
@@ -16,11 +19,20 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class SuplementosController {
     
-    @RequestMapping("/whey")
-    public String whey(){
+    @RequestMapping(value = "/*", method=RequestMethod.GET)
+    public String whey(HttpServletRequest request){
     
-    
-	return "whey";
+	String pagina = request.getRequestURL().toString();
+	
+	String[] url = pagina.split("/");
+	
+	for (int i = 0; i < url.length; i++) {
+	    System.out.println(url[i]);
+	}
+	
+	
+	System.out.println(pagina);
+	return url[4];
     }
     
 }

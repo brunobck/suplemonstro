@@ -175,6 +175,7 @@
 	    </div>
 
 	    <div class="col-md-3 promo1 img-rounded">
+		<a href="bcaa">
 		<img src="<c:url value="resources/uploads/icones/bcaa.png" />" class="img-responsive" style=" width: 1126px;">			
 
 		<div class="desc img-rounded">
@@ -184,6 +185,7 @@
 		    <p>6x de R$30,98 sem juros</p>
 		    R$167,31 no boleto
 		</div>
+		</a>
 	    </div>
 	</div>
 
