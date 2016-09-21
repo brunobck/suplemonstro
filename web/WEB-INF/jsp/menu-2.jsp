@@ -1,5 +1,5 @@
-<nav class="navbar navbar-default menu" id="menu">
-  <div class="container-fluid">
+<nav class="navbar navbar-default navbar-fixed-top" id="menu">
+  <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -29,11 +29,11 @@
           </ul>
         </li>
       </ul>
-	<form class="navbar-form navbar-left hidden" id="form">
-        <div class="form-group">	    
+	<form class="navbar-form navbar-left" id="form">
+        <div class="form-group">
           <input type="text" class="form-control" placeholder="Buscar produtos">
-	   <button type="submit" class="btn btn-default">Buscar</button>
-        </div>       
+        </div>
+        <button type="submit" class="btn btn-default">Buscar</button>
       </form>
 	
       <ul class="nav navbar-nav navbar-right">
