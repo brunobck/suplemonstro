@@ -159,7 +159,7 @@
 
 	    <div class="row col-md-12 ">
 
-		<div class="col-md-3 col-md-offset-1 promo1 img-rounded">
+		<div class="col-md-3 col-md-offset-1 promo1 img-rounded foto">
 		    <a href="whey">
 			<img src="<c:url value="resources/uploads/icones/whey.png" />" class="img-responsive" style=" width: 1126px;">	
 			<div class="desc img-rounded">
@@ -172,7 +172,7 @@
 		    </a>
 		</div>
 
-		<div class="col-md-3 promo1 img-rounded">
+		<div class="col-md-3 promo1 img-rounded  foto">
 		    <img src="<c:url value="resources/uploads/icones/malto.png" />" class="img-responsive" style=" width: 1126px;">	
 
 		    <div class="desc img-rounded">
@@ -183,7 +183,7 @@
 		    </div>
 		</div>
 
-		<div class="col-md-3 promo1 img-rounded">
+		<div class="col-md-3 promo1 img-rounded foto">
 		    <a href="bcaa">
 			<img src="<c:url value="resources/uploads/icones/bcaa.png" />" class="img-responsive" style=" width: 1126px;">			
 
@@ -209,5 +209,7 @@
 
 
 	</div>
+			
+			<%@include file="rodape.jsp" %>
     </body>
 </html>
