@@ -5,12 +5,14 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<link href="<c:url value="resources/css/bootstrap.css"/>" rel="stylesheet" type="text/css"/>
+	<link rel="icon" href="http://www.nutrimundo.com.br/media/favicon/default/icowl_1.png" type="image/x-icon" />
+	<link rel="shortcut icon" href="http://www.nutrimundo.com.br/media/favicon/default/icowl_1.png" type="image/x-icon" />
+	<link href="<c:url value="resources/css/bootstrap/css/bootstrap.min.css"/>" rel="stylesheet" type="text/css"/>
 	<link href="<c:url value="resources/css/menu.css"/>" rel="stylesheet" type="text/css"/>
         <link href="<c:url value="resources/css/style.css"/>" rel="stylesheet" type="text/css"/>
+	
         <script src="<c:url value="resources/js/jquery.js"/>" type="text/javascript"></script>
-	<script src="<c:url value="resources/js/bootstrap.js"/>" type="text/javascript"></script>
-        <title>JSP Page</title>
+	<script src="<c:url value="resources/css/bootstrap/js/bootstrap.min.js" />" type="text/javascript"></script>
 
 	<style>
 
@@ -135,7 +137,7 @@
 			</select><br>
 
 			<div class="form-group">
-			    <button class="btn btn-primary btn-lg"><span><img src="<c:url value="resources/uploads/icones/carrinho.png" />" style="width: 20px;"> Comprar</span></button>
+			    <button class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-shopping-cart"></span>Comprar</button>
 			</div>
 		    </div>
 

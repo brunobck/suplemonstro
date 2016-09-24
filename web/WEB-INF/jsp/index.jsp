@@ -8,12 +8,13 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<link rel="icon" href="http://www.nutrimundo.com.br/media/favicon/default/icowl_1.png" type="image/x-icon" />
 	<link rel="shortcut icon" href="http://www.nutrimundo.com.br/media/favicon/default/icowl_1.png" type="image/x-icon" />
-	<link href="<c:url value="resources/css/bootstrap.css"/>" rel="stylesheet" type="text/css"/>
+	<link href="<c:url value="resources/css/bootstrap/css/bootstrap.min.css"/>" rel="stylesheet" type="text/css"/>
 	<link href="<c:url value="resources/css/menu.css"/>" rel="stylesheet" type="text/css"/>
         <link href="<c:url value="resources/css/style.css"/>" rel="stylesheet" type="text/css"/>
-	<link href="<c:url value="resources/css/font-awesome.css" />" rel="stylesheet" type="text/css"/>
+	
         <script src="<c:url value="resources/js/jquery.js"/>" type="text/javascript"></script>
-	<script src="<c:url value="resources/js/bootstrap.js"/>" type="text/javascript"></script>
+	<script src="<c:url value="resources/css/bootstrap/js/bootstrap.min.js" />" type="text/javascript"></script>
+	
 
 
 
@@ -143,7 +144,7 @@
 		</div>
 
 		<!-- Controls -->
-		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		<a class="left carousel-control " href="#carousel-example-generic" role="button" data-slide="prev">
 		    <span class="" aria-hidden="true"></span>
 		    <span class="sr-only"></span>
 		</a>
