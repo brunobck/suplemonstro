@@ -11,10 +11,10 @@
 	<link href="<c:url value="resources/css/bootstrap/css/bootstrap.min.css"/>" rel="stylesheet" type="text/css"/>
 	<link href="<c:url value="resources/css/menu.css"/>" rel="stylesheet" type="text/css"/>
         <link href="<c:url value="resources/css/style.css"/>" rel="stylesheet" type="text/css"/>
-	
+
         <script src="<c:url value="resources/js/jquery.js"/>" type="text/javascript"></script>
 	<script src="<c:url value="resources/css/bootstrap/js/bootstrap.min.js" />" type="text/javascript"></script>
-	
+
 
 
 
@@ -61,35 +61,35 @@
 	</script>
 
 	<style>
-	   
-.barra{
-    margin-top: 60px;
-    margin-bottom: -100px;
 
-}
+	    .barra{
+		margin-top: 60px;
+		margin-bottom: -100px;
 
-#btnbusca:hover{
-    color: greenyellow;
-    background-color: #000;
-}
+	    }
 
-.promo{
-    margin-top: 20px;
-}
+	    #btnbusca:hover{
+		color: greenyellow;
+		background-color: #000;
+	    }
 
-.promo1{
+	    .promo{
+		margin-top: 20px;
+	    }
 
-    background-color: white;
-    margin-top: 10px;
-    margin-right: 50px;
+	    .promo1{
 
-}
+		background-color: white;
+		margin-top: 10px;
+		margin-right: 50px;
 
-.desc{
-    background-color: #d5d5d5;
-    padding: 10px;
+	    }
 
-}
+	    .desc{
+		background-color: #d5d5d5;
+		padding: 10px;
+
+	    }
 	</style>
 
         <title>NutriMonstro</title>
@@ -97,26 +97,7 @@
 
 
     <body>
-	<div class="container">
-	    <div class="col-md-12">
-		<div class="col-md-4">
-		    <img src="<c:url value="resources/uploads/icones/logo.png" />" >
-		</div>
-		<div class="input-group col-md-offset-4 col-md-6 barra">
-
-		    <span class="input-group-addon" id="basic-addon1"><img src="<c:url value="resources/uploads/icones/busca.png" />" style="width: 20px;"></span>
-		    <i class="icon-search"></i>
-		    <input type="text" class="form-control" placeholder="Buscar" aria-describedby="basic-addon1">
-
-		    <span class="input-group-btn">
-			<button class="btn btn-default" type="button" id="btnbusca">Buscar</button>
-
-		    </span>
-		</div>
-
-	    </div>
-
-	</div>
+	<%@include file="head.jsp" %>
 	<%@include file="menu.jsp" %>
 	<div class="container corpo">
 	    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -145,11 +126,11 @@
 
 		<!-- Controls -->
 		<a class="left carousel-control " href="#carousel-example-generic" role="button" data-slide="prev">
-		    <span class="" aria-hidden="true"></span>
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 		    <span class="sr-only"></span>
 		</a>
 		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-		    <span class="" aria-hidden="true"></span>
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 		    <span class="sr-only"></span>
 		</a>
 	    </div>
@@ -210,7 +191,7 @@
 
 
 	</div>
-			
-			<%@include file="rodape.jsp" %>
+
+	<%@include file="rodape.jsp" %>
     </body>
 </html>
