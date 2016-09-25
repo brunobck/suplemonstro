@@ -155,7 +155,7 @@
 	    <div id="abas" class="col-md-10">
 		<ul>
 		    <li><a href="#aba1">Descrição</a></li>
-		    <li><a href="#aba2">Fixa técnica</a></li>
+		    <li><a href="#aba2">Ficha técnica</a></li>
 		</ul>
 
 		<div class="col-md-10 img-rounded" id="aba1">

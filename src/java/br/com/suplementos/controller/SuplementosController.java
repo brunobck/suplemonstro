@@ -25,7 +25,8 @@ public class SuplementosController {
 	String pagina = request.getRequestURL().toString();
 	
 	String[] url = pagina.split("/");
-
+	
+	
 	return url[4];
     }
     
