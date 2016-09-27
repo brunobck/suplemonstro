@@ -143,7 +143,7 @@
 			</select><br>
 
 			<div class="form-group">
-			    <button class="btn btn-primary btn-lg"><span><img src="<c:url value="resources/uploads/icones/carrinho.png" />" style="width: 20px;"> Comprar</span></button>
+			    <a href="finaliza"><button class="btn btn-primary btn-lg"><span><img src="<c:url value="resources/uploads/icones/carrinho.png" />" style="width: 20px;"> Comprar</span></button></a>
 			</div>
 		    </div>
 
