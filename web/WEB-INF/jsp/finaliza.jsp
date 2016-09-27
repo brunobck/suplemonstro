@@ -200,5 +200,7 @@
 
 
 	</div>
+			
     </body>
+    <%@include file="rodape.jsp" %>
 </html>

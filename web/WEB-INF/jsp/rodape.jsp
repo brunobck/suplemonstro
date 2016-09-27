@@ -7,16 +7,19 @@
     
 }
 
-.palavras > p{
+.palavras > center > p{
 	color: white;
+	margin: auto !important;
     }
 </style>
 
 <footer>
     <div class="container-fluid">
         <div class="row rodape">
-            <div class="col-sm-6 col-md-6 palavras pull-right">
+            <div class="palavras">
+		<center>
                 <p>&copy; 2016 Nutrimundo todos os direitos reservados</p>
+		</center>
             </div>
 
         </div>
